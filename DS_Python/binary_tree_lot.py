@@ -10,10 +10,8 @@ def newNode(val):
     return Node(val)
 
 def lot(root):
-    
     if not root:
         return 
-    
     queue = [root]
     ans = []
     while(queue):
